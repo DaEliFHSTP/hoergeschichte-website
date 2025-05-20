@@ -57,7 +57,14 @@
   </style>
 </head>
 <body>
+ <h1>Herz der Anden</h1>
+  <img src="images/herz_der_anden.jpg" alt="Bild des Herz der Anden-Exponats" />
+  <p>Erlebe die Klänge des Marktplatzes – Tiere, Geräusche, Atmosphäre.</p>
 
+  <audio controls>
+    <source src="audio/Exponat2_Herz_der_Anden.mp3" type="audio/mpeg" />
+    Dein Browser unterstützt das Audioelement nicht.
+  </audio>
 
   <a href="index.html" class="back-link">Zurück zur Startseite</a>
 </body>
