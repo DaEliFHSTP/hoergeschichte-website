@@ -4,17 +4,43 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>HörGeschichte</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #f4f4f4;
+      text-align: center;
+      padding: 2em;
+      margin: 0;
+    }
+
+    h1 {
+      color: #333;
+      margin-bottom: 1em;
+    }
+
+    .link-button {
+      display: inline-block;
+      padding: 0.7em 1.2em;
+      margin-top: 2em;
+      background-color: #4caf50;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .link-button:hover {
+      background-color: #388e3c;
+    }
+  </style>
 </head>
 <body>
   <h1>Willkommen bei HörGeschichte</h1>
   <p>Scanne einen QR-Code in der Ausstellung, um den passenden Klang zu hören.</p>
-
-  <nav>
-    <ul>
-      <li><a href="marktplatz.html">Marktszene 1676 - 1765 von Theobald Michau</a></li>
-      <li><a href="eisenwalzwerk.html">Eisenwalzwerk 1872 - 1875 von Adolph von Menzel</a></li>
-      <li><a href="herz-der-anden.html">Herz der Anden 1859 von Frederic Edwin Church</a></li>
-    </ul>
-  </nav>
+  <a href="marktplatz.html" class="link-button">Zum Marktplatz-Exponat</a>
+  <a href="eisenwalzwerk.html" class="link-button">Zum Eisenwalzwerk-Exponat</a>
+  <a href="herz_der_anden.html" class="link-button">Zum Herz der Anden-Exponat</a>
 </body>
 </html>
